@@ -14,4 +14,4 @@ CodeEdit supports core languages and markup out-of-the-box, including HTML, Java
 
 Understandably, most developers will need support for other languages, require additional features, and have unique preferences. To meet these needs, CodeEdit provides a robust JavaScript and React extension API.
 
-If you are new to extension development or would like to become familiar with creating extensions for CodeEdit, we highly recommend following our Getting Started guide that will walk you through building a basic extension and publishing it. If you run into problems along the way, please reach out to our dedicated extension community on Discord.
+If you are new to extension development or would like to become familiar with creating extensions for CodeEdit, we highly recommend following our Getting Started guide that will walk you through building a basic extension and publishing it. If you run into problems along the way, please reach out to our dedicated extension community on [Discord](https://discord.gg/vChUXVf9Em).
