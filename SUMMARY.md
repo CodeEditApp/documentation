@@ -23,4 +23,5 @@
 
 ***
 
+* [Best Practices](best-practices.md)
 * [FAQ](faq.md)
