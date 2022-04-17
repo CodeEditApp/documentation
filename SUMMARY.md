@@ -13,10 +13,11 @@
 
 * [Building a Language Extension](guides/building-a-language-extension.md)
 * [Building a Treeview Extension](guides/building-a-treeview-extension.md)
+* [Creating a Custom UI](guides/creating-a-custom-ui.md)
 
 ## API Reference
 
-* [API Structure](api-reference/api-structure.md)
+* [API Object Model](api-reference/api-object-model.md)
 * [Editor](api-reference/editor.md)
 * [Completion Provider](api-reference/completion-provider.md)
 
