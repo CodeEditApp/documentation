@@ -23,6 +23,8 @@ It is not necessary to have a CodeEdit developers account if you have no intenti
 
 ## File and Folder Structure
 
+Every extension project is created with the default file and folder structure shown below.
+
 ```
 .
 ├── assets/
@@ -52,3 +54,22 @@ It is not necessary to have a CodeEdit developers account if you have no intenti
 ## extension.json
 
 ## index.js
+
+The `index.js` file serves as the main entrypoint for the extension. It should export two methods, `activate` and `deactivate`. The `activate` method is called only once when the [Activation Event](../activation-events.md) specified in `extension.json` has occurred.
+
+```javascript
+import * as codeedit from 'codeedit';
+
+// Method is called once when the extension is first activated.
+export function activate() {
+  // Instantiate extension object.
+  let myCompletionProvider = new myCompletionProvider();
+  
+  // Register the extension object.
+  codeedit.extensions.registerCompletionProvider(myCompletionProvider);
+}
+
+export function deactivate() {
+  // Add any code that should be run when the extension stops running.
+}
+```

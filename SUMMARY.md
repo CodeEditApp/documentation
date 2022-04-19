@@ -20,8 +20,11 @@
 * [API Object Model](api-reference/api-object-model.md)
 * [Editor](api-reference/editor.md)
 * [Completion Provider](api-reference/completion-provider.md)
+* [Context](api-reference/context.md)
+* [Scope](api-reference/scope.md)
 
 ***
 
+* [Activation Events](activation-events.md)
 * [Best Practices](best-practices.md)
 * [FAQ](faq.md)
