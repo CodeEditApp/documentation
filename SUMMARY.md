@@ -11,14 +11,16 @@
 
 ## Guides
 
-* [Building a Language Extension](guides/building-a-language-extension.md)
+* [Building a Completion Extension](guides/building-a-completion-extension.md)
 * [Building a Treeview Extension](guides/building-a-treeview-extension.md)
 * [Creating a Custom UI](guides/creating-a-custom-ui.md)
 
 ## API Reference
 
 * [API Object Model](api-reference/api-object-model.md)
-* [Editor](api-reference/editor.md)
+* [TextEditor](api-reference/texteditor/README.md)
+  * [TextEdit](api-reference/texteditor/textedit.md)
+  * [Range](api-reference/texteditor/range.md)
 * [Completion Provider](api-reference/completion-provider.md)
 * [Context](api-reference/context.md)
 * [Scope](api-reference/scope.md)

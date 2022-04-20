@@ -8,7 +8,7 @@ description: Find answers to commonly asked questions.
 
 <summary>What languages are supported by the CodeEdit extension architecture?</summary>
 
-CodeEdit supports JavaScript for extension development. React is also supported for the creation of custom interfaces.
+CodeEdit supports JavaScript and TypeScript for extension development. React is also supported for the creation of custom interfaces.
 
 </details>
 
