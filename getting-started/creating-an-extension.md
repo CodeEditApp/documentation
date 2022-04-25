@@ -51,6 +51,29 @@ Every extension project is created with the default file and folder structure sh
 
 ## package.json
 
+The `package.json` extension manifest file is a superset of the npm `package.json` file so only a single file is required to configure your extension. Please refer to the [npm documentation](https://docs.npmjs.com/cli/v7/configuring-npm/package-json) for more information.
+
+```
+{
+  "name": "my-extension",
+  "displayName": "My Extension",
+  "author": "johnnyappleseed",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["codeedit", "extension"],
+  "engines": {
+    "codeedit": ">=1.1.0",
+    "node": "12.x",
+    "npm": ">=6.4"
+  },
+  "main": "src/index.js",
+  "activation": "src/activate.js",
+  "deactivation": "src/deactivate.js",
+  "dependencies": { ... },
+  "devDependencies": { ... }
+}
+```
+
 ## index.js
 
 The `index.js` file serves as the main entrypoint for the extension. It should export two methods, `activate` and `deactivate`. The `activate` method is called only once when the [Activation Event](../activation-events.md) specified in `extension.json` has occurred.
