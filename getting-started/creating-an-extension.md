@@ -69,10 +69,33 @@ The `package.json` extension manifest file is a superset of the npm `package.jso
   "main": "src/index.js",
   "activation": "src/activate.js",
   "deactivation": "src/deactivate.js",
+  "commands": [
+    {
+      "name": "share-code-screenshot",
+      "title": "Share Code Screenshot",
+      "description": "A command to share a screenshot of the selected code",
+      "mode": "sheet"
+    }
+  ],
   "dependencies": { ... },
   "devDependencies": { ... }
 }
 ```
+
+#### Properties
+
+| Property     | Required | Description                                                                             |
+| ------------ | -------- | --------------------------------------------------------------------------------------- |
+| name         | Yes      | The extension identifier.                                                               |
+| displayName  | Yes      | Human readable extension name.                                                          |
+| description  | Yes      | A single sentence describing the extension.                                             |
+| icon         | Yes      | An icon for the extension. See our icon specifications.                                 |
+| author       | Yes      | The username of who built the extension.                                                |
+| categories   | Yes      | The categories that apply to this extension. See a list of our extension categories.    |
+| commands     | Yes      | An array of commands that are offered by this extension. See Command Properties.        |
+| contributors | No       | A list of usernames of contributors of this extension.                                  |
+| keywords     | No       | Keywords that apply to this extension.                                                  |
+| preferences  | No       | An array of preferences that are offered by this extension. See Preferences Properties. |
 
 ## index.js
 
