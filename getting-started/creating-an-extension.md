@@ -53,7 +53,7 @@ Every extension project is created with the default file and folder structure sh
 
 The `package.json` extension manifest file is a superset of the npm `package.json` file so only a single file is required to configure your extension. Please refer to the [npm documentation](https://docs.npmjs.com/cli/v7/configuring-npm/package-json) for more information.
 
-```
+```json
 {
   "name": "my-extension",
   "displayName": "My Extension",

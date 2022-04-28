@@ -1,8 +1,12 @@
+---
+description: Represents a text editor window.
+---
+
 # TextEditor
 
-## TextEdit
+A TextEditor object refers to an open text editor in CodeEdit. It should not be confused with a TextDocument object, which is a property of the TextEditor.
 
-### Class Methods
+## Class Methods
 
 <details>
 
@@ -22,21 +26,35 @@
 
 <details>
 
-<summary>replace(range: Range, newText: string): TextEdit</summary>
+<summary>replace(range: <a href="range.md">Range</a>, newText: string): TextEdit</summary>
 
 
 
 </details>
 
-### Constructor
+## Constructor
 
-new TextEdit(range: Range, newText: string: TextEdit
+```javascript
+new TextEdit(range: Range, newText: string: TextEdit)
+```
 
-### Properties
+## Methods
+
+
+
+## Properties
 
 <details>
 
-<summary>nextText: string</summary>
+<summary>document: <a href="textdocument.md">TextDocument</a></summary>
+
+The document associated with the text editor.
+
+</details>
+
+<details>
+
+<summary>options: TextEditorOptions</summary>
 
 
 
@@ -44,7 +62,17 @@ new TextEdit(range: Range, newText: string: TextEdit
 
 <details>
 
-<summary>range: Range</summary>
+<summary>selections: <a href="selection.md">Selection</a>[]</summary>
+
+
+
+</details>
+
+## Events
+
+<details>
+
+<summary>onDidSave(callback)</summary>
 
 
 

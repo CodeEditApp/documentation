@@ -1,10 +1,16 @@
+---
+description: Represents an edit that is to be applied to a document.
+---
+
 # TextEdit
+
+A text edit object represents a change that should be made to an existing document in an editor object.
 
 ## Class Methods
 
 <details>
 
-<summary>delete(range: Range): TextEdit</summary>
+<summary>delete(range: <a href="range.md">Range</a>): <a href="textedit.md">TextEdit</a></summary>
 
 
 
@@ -12,7 +18,7 @@
 
 <details>
 
-<summary>insert(position: Position, newText: string): TextEdit</summary>
+<summary>insert(position: <a href="position.md">Position</a>, newText: string): <a href="textedit.md">TextEdit</a></summary>
 
 
 
@@ -20,7 +26,7 @@
 
 <details>
 
-<summary>replace(range: Range, newText: string): TextEdit</summary>
+<summary>replace(range: <a href="range.md">Range</a>, newText: string): <a href="textedit.md">TextEdit</a></summary>
 
 
 
@@ -28,13 +34,13 @@
 
 ## Constructor
 
-`new TextEdit(range: Range, newText: string: TextEdit`
+`new TextEdit(range:` [`Range`](range.md)`, newText: string:` [`TextEdit`](textedit.md)`)`
 
 ## Properties
 
 <details>
 
-<summary>nextText: string</summary>
+<summary>newText: string</summary>
 
 
 
@@ -47,3 +53,5 @@
 
 
 </details>
+
+## Example
