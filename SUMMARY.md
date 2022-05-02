@@ -18,7 +18,8 @@
 ## API Reference
 
 * [API Object Model](api-reference/api-object-model.md)
-* [CodeEdit Environment](api-reference/codeedit-environment.md)
+* [CodeEdit Environment](api-reference/codeedit-environment/README.md)
+  * [Clipboard](api-reference/codeedit-environment/clipboard.md)
 * [Workspace](api-reference/workspace.md)
 * [TextEditor](api-reference/texteditor/README.md)
   * [TextDocument](api-reference/texteditor/textdocument.md)
@@ -26,8 +27,8 @@
   * [Selection](api-reference/texteditor/selection.md)
   * [Position](api-reference/texteditor/position.md)
   * [Range](api-reference/texteditor/range.md)
-  * [Context](api-reference/texteditor/context.md)
-* [CompletionProvider](api-reference/completionprovider.md)
+* [CompletionProvider](api-reference/completionprovider/README.md)
+  * [Context](api-reference/completionprovider/context.md)
 * [HoverProvider](api-reference/hoverprovider.md)
 * [TreeProvider](api-reference/treeprovider.md)
 * [Scope](api-reference/scope.md)

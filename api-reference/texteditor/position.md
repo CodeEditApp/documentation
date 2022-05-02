@@ -1,5 +1,5 @@
 ---
-description: Represents a line and character position of the cursor.
+description: Represents a line and character position.
 ---
 
 # Position

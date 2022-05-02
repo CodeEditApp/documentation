@@ -26,19 +26,19 @@ class CompletionProvider {
 
 It is expected that every `CompletionProvider` class include a `provideCompletionItems` method, the role of which is to return an array of `CompletionItem` objects. This array of objects is used to determine relevant completion suggestions as the user types inside the editor.
 
-In the case of the `CompletionProvider`, the `provideCompletionItems` method will be called each time the user types in the editor while the [activation event](../activation-events.md) conditions are met. CodeEdit will then determine the relevant suggestions.
+In the case of the `CompletionProvider`, the `provideCompletionItems` method will be called each time the user types in the editor while the [activation event](../../activation-events.md) conditions are met. CodeEdit will then determine the relevant suggestions.
 
-The `provideCompletionItems` method expects an [editor](texteditor/textedit.md) and [context](texteditor/context.md) as arguments. These objects provide the extension with information about the state when a completion is triggered, including the [scope](scope.md) of the current cursor position.
+The `provideCompletionItems` method expects an [editor](../texteditor/textedit.md) and [context](context.md) as arguments. These objects provide the extension with information about the state when a completion is triggered, including the [scope](../scope.md) of the current cursor position.
 
 {% hint style="info" %}
-Using the [context](texteditor/context.md) object, additional completion criteria can be defined by limiting the results returned by the provideCompletionItems method based on the current context. For example, a completion suggestion that is a CSS class name, should only be returned when the current context is within a valid HTML class attribute.
+Using the [context](context.md) object, additional completion criteria can be defined by limiting the results returned by the provideCompletionItems method based on the current context. For example, a completion suggestion that is a CSS class name, should only be returned when the current context is within a valid HTML class attribute.
 {% endhint %}
 
 ## CompletionItem
 
 ### Constructor
 
-`new CompletionItem(label: string, kind?:` [`CompletionItemKind`](completionprovider.md#undefined)`): CompletionItem`
+`new CompletionItem(label: string, kind?:` [`CompletionItemKind`](./#undefined)`): CompletionItem`
 
 Instantiates a new completion item object.
 
@@ -112,7 +112,7 @@ A command that should be executed after insertion of the selected completion.
 
 <details>
 
-<summary>kind?: <a href="completionprovider.md#undefined">CompletionItemKind</a></summary>
+<summary>kind?: <a href="./#undefined">CompletionItemKind</a></summary>
 
 
 
